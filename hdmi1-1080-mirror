@@ -1,0 +1,12 @@
+xrandr \
+  --output eDP1 \
+    --auto \
+    --scale 1x1 \
+    --mode 1920x1080 \
+    --pos 0x0 \
+  --output HDMI1 \
+    --scale 1x1 \
+    --mode 1920x1080 \
+    --same-as eDP1
+
+gsettings set org.gnome.desktop.interface text-scaling-factor 1
