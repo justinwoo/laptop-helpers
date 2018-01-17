@@ -1,0 +1,4 @@
+xrandr --output HDMI1 --auto --primary --mode 2560x1440
+xrandr --output eDP1 --mode 1920x1080 --scale-from 2560x1440
+
+gsettings set org.gnome.desktop.interface text-scaling-factor 1.0
