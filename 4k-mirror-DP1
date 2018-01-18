@@ -1,0 +1,4 @@
+xrandr --output DP1 --auto --primary --mode 3840x2160
+xrandr --output eDP1 --mode 1920x1080 --scale-from 3840x2160
+
+gsettings set org.gnome.desktop.interface text-scaling-factor 1.5
