@@ -1,5 +1,6 @@
 xrandr --output $MAIN_DISPLAY --auto --scale 1x1 --mode 1920x1080 --pos 0x0
 xrandr --output $HDMI_DISPLAY --off
+xrandr --output $DP_DISPLAY --off
 
 gsettings set org.gnome.desktop.interface text-scaling-factor 1
 set-bg
