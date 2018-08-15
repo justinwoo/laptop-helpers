@@ -1,8 +1,0 @@
-xrandr --output $MAIN_DISPLAY --off
-xrandr --output DP-2-1 \
-    --primary \
-    --scale 1x1 \
-    --mode 2560x1440 \
-    --above $MAIN_DISPLAY
-
-gsettings set org.gnome.desktop.interface text-scaling-factor 1.0
