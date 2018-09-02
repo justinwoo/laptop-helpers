@@ -2,6 +2,7 @@ HOSTNAME=$(hostname)
 if [ $HOSTNAME = 'ponkotsu' ];
 then
   xinput --disable "SynPS/2 Synaptics TouchPad"
+  xinput --disable "Raydium Corporation Raydium Touch System"
 else
   xinput --disable "ETPS/2 Elantech Touchpad"
 fi
